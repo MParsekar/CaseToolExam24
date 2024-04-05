@@ -85,7 +85,7 @@
         showSet(parseInt(savedSet, 10));
     } else {
         // If not, randomly choose a set, show it, and save the choice
-        const randomSet = Math.floor(Math.random() * 2) + 1; // This will be 1 or 2
+        const randomSet = 1; // This will be 1 or 2
         showSet(randomSet);
         localStorage.setItem('examSet', randomSet.toString());
     }
